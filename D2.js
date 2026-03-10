@@ -124,8 +124,8 @@ console.log("exercise 7: ", arr);
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
-let input = "%";
-if (typeof(input) === Number) {
+let input = 9;
+if (typeof input === "number") {
   console.log("exercise 8: " + "It's a number!")
 } else {
   console.log("exercise 8: " + "Not a number!")
