@@ -148,7 +148,7 @@ if (k % 2 === 0) {
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
 */  
 let val = 7
-if (val < 10 && val <5) {
+if (val < 5) {
     console.log("Meno di 5");
   } else if (val > 5 && val < 10) {
       console.log("exercise 10: " + "Meno di 10");
